@@ -1,12 +1,13 @@
 
 import React from "react";
 import Footer from "./layout/footer";
-import Header from "./layout/header";
+import Navigation from "./layout/navigation";
+
 
 function App() {
   return (
     <div>
-      <Header/>
+      <Navigation/>
       <h1>this a page</h1>
       <Footer/>
     </div>
